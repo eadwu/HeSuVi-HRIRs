@@ -1,0 +1,3 @@
+[submodule "tools/hesuvi_convert"]
+	path = tools/hesuvi_convert
+	url = https://gist.github.com/2519179722432fc00be57ffb5155715f.git
