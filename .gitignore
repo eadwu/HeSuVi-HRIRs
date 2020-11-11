@@ -1,2 +1,6 @@
 !*.wav
 !*.ogg
+
+# Nix
+result
+result-*
