@@ -1,0 +1,60 @@
+{
+  "nodes": {
+    "flake-compat": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1603796912,
+        "narHash": "sha256-6ayqpH/4XiEXylNdWI3AghubqS6XuiPg3Y60jY8RTo4=",
+        "owner": "edolstra",
+        "repo": "flake-compat",
+        "rev": "19576c2aea7f074ff0da818b21a8b0950ff6ec86",
+        "type": "github"
+      },
+      "original": {
+        "owner": "edolstra",
+        "repo": "flake-compat",
+        "type": "github"
+      }
+    },
+    "hesuvi_convert-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1579868828,
+        "narHash": "sha256-TKaAnAXkQAU7o8bZ6rgAJSZQPIqUyzfBaidme9gShAM=",
+        "ref": "master",
+        "rev": "f88b2fb78cd369f5af9de3f514a5bf239bb6d68b",
+        "revCount": 6,
+        "type": "git",
+        "url": "https://gist.github.com/2519179722432fc00be57ffb5155715f.git"
+      },
+      "original": {
+        "type": "git",
+        "url": "https://gist.github.com/2519179722432fc00be57ffb5155715f.git"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1605123641,
+        "narHash": "sha256-VGSVE6n97b8EXQVFEjYEG7jBfcXI5F3FzuC0ruIscbE=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "7741f925f16e26ab9c601291337e3efb46d00dec",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "flake-compat": "flake-compat",
+        "hesuvi_convert-src": "hesuvi_convert-src",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
